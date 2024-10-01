@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Meu portfólio">
+    <meta name="keywords" content="portfólio, projeto, dev, desenvolvedor web, programador, ti, vanilha js">
+    <meta name="author" content="Thiago Alves">
+    <!--Importação dos componentes-->
+    <script src="/src/components/header/header.js"></script>
+    <script src="/assets/js/header-script.js"></script>
+    <script src="/src/components/footer/footer.js"></script>
+    <!--Importação dos scripts das páginas-->
+    <script src="/assets/js/home-scripts.js" type="module"></script>
+    <script src="/assets/js/about-scripts.js" type="module"></script>
+    <!--<script src="/assets/js/contact-scripts.js" type="module"></script>-->
+    <!--Importação dos services-->
+    <script src="/src/service/contact-service.js" type="module"></script>
+    <link rel="stylesheet" href="/assets/css/scopoGlobal.css" type="text/css">
+    <link rel="stylesheet" href="/assets/css/header.css" type="text/css">
+    <link rel="stylesheet" href="/assets/css/footer.css" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Font-->
+    <link rel="stylesheet" href="/assets/fonts/font.css" type="text/css">
+    <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="/favicon/portfolio-folder.png">
+    <title>Portfólio | Home</title>
+</head>
+    <body onload="javascript:onInitFunction()">
+        
+        <!--Header-->
+        <default-header></default-header>
+
+        <!--Router das Páginas-->
+        <app-router id="root">
+            
+        </app-router>
+        <!--Footer-->
+        <default-footer></default-footer>
+
+        <script src="router.js" type="module"></script>
+         <!--CDN responsavel pelo alert personalizado-->
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <!--CDN responsavel pela api de envio de emails-->
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+    </body>
+</html>
