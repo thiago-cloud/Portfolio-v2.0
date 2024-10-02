@@ -14,6 +14,8 @@ export default () =>{
                     <a href="https://linkedin.com/" target="_blank">LinkedIn</a>
                     <a href="https://twitter.com/" target="_blank">Twitter</a>
                 </div>-->
+            </div>
+            <div class="container-button">
                 <button class="toggle-details">Detalhes</button>
             </div>
             <div class="details-section" id="details">

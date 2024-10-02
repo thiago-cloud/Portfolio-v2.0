@@ -16,12 +16,16 @@
     background:linear-gradient(45deg, blueviolet, lightgreen);
 }
 
+.container-button{
+    padding-bottom: 30px;
+}
+
 .details-section ul li{
     margin:30px;
 }
 
 .profile-container {
-    height:60vh;
+    height:55vh;
     width:100vw;
 }
 
@@ -101,29 +105,48 @@
 /*Resposividade*/
 @media(width:320px) and (height:568px){
     .profile-container{
-        height:80vh;
+        height:72vh;
     }
 }
 
-@media(min-width:321px) and (max-width:380px) and (max-height:750px){
+@media(min-width:321px) and (max-width:380px) and (min-height:550px) and (max-height:700px){
     .details-section{
         margin-top:0;
     }
 
     .profile-container{
-        height:70vh;
+        height:62vh;
     }
 }
 
-@media(min-width:381px) and (max-width:429px) and (min-height:669px) and (max-height: 915px){
+/*Xiaomi MI 9*/
+@media(min-width:360px) and (max-width:391px) and (min-height:739px) and (max-height:800px){
     .profile-container {
         height: 53vh;
     }
 }
 
+@media(width:384px) and (min-height:640px) and (max-height:649px){
+    .profile-container{
+        height:64vh;
+    }
+}
+
+@media(min-width:392px) and (max-width:429px) and (min-height:650px) and (max-height: 916px){
+    .profile-container {
+        height: 45vh;
+    }
+}
+
+@media(min-width:385px) and (max-width:391px){
+    .profile-container {
+        height: 48vh;
+    }
+}
+
 @media(min-width:430px) and (max-width:769px) and (min-height:898px) and (max-height: 933px){
     .profile-container{
-        height:53vh;
+        height:45vh;
     }
 }
 
