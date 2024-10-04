@@ -16,11 +16,6 @@
     <script src="/assets/js/header-script.js" defer></script>
     <!--Importação dos services-->
     <script src="/src/service/contact-service.js" type="module" defer></script>
-    <!--CDN-->
-    <!--CDN responsavel pelo alert personalizado-->
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
-    <!--CDN responsavel pela api de envio de emails-->
-    <script src="https://smtpjs.com/v3/smtp.js" defer></script>
     <!--CSS-->
     <link rel="stylesheet" href="/assets/css/scopoGlobal.css" type="text/css">
     <link rel="stylesheet" href="/assets/css/header.css" type="text/css">
@@ -37,7 +32,6 @@
         
         <!--Header-->
         <default-header></default-header>
-
         <!--Router das Páginas-->
         <app-router id="root">
             
@@ -46,6 +40,11 @@
         <default-footer></default-footer>
 
         <script src="router.js" type="module"></script>
-         
+        <!--CDN-->
+        <!--CDN responsavel pela api de envio de emails-->
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <!--CDN responsavel pelo alert personalizado-->
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
     </body>
 </html>
