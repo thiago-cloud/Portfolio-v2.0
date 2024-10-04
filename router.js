@@ -1,4 +1,4 @@
-//Importando o template home
+//Importando os templates
 import home from './src/pages/home/home.js'
 import projects from './src/pages/projects/projects.js'
 import about from './src/pages/about/about.js'
@@ -36,8 +36,8 @@ const init = () =>{
 
 //O load e um evento que diz a respeito do carregamento da janela ou seja depois que toda a janela carregar faça uma ação
 window.addEventListener("load", () => {
-    main.appendChild(home())//toda vez que a página carregar print o template home na tag main #root
-    init()//Chamando a função init após o carregamento da página index
+    main.appendChild(home())// Toda vez que a página carregar, print o template home na tag main #root
+    init()// Chamando a função init após o carregamento da página index
     const onRouterFinishedEvent = new Event("onRouterFinished");
     document.dispatchEvent(onRouterFinishedEvent);
 })

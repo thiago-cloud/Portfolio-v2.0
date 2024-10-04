@@ -8,14 +8,20 @@
     <meta name="author" content="Thiago Alves">
     <!--Importação dos componentes-->
     <script src="/src/components/header/header.js"></script>
-    <script src="/assets/js/header-script.js"></script>
     <script src="/src/components/footer/footer.js"></script>
     <!--Importação dos scripts das páginas-->
-    <script src="/assets/js/home-scripts.js" type="module"></script>
-    <script src="/assets/js/about-scripts.js" type="module"></script>
-    <!--<script src="/assets/js/contact-scripts.js" type="module"></script>-->
+    <script src="/assets/js/home-scripts.js" type="module" defer></script>
+    <script src="/assets/js/about-scripts.js" type="module" defer></script>
+    <!--Importação dos scripts dos components-->
+    <script src="/assets/js/header-script.js" defer></script>
     <!--Importação dos services-->
-    <script src="/src/service/contact-service.js" type="module"></script>
+    <script src="/src/service/contact-service.js" type="module" defer></script>
+    <!--CDN-->
+    <!--CDN responsavel pelo alert personalizado-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
+    <!--CDN responsavel pela api de envio de emails-->
+    <script src="https://smtpjs.com/v3/smtp.js" defer></script>
+    <!--CSS-->
     <link rel="stylesheet" href="/assets/css/scopoGlobal.css" type="text/css">
     <link rel="stylesheet" href="/assets/css/header.css" type="text/css">
     <link rel="stylesheet" href="/assets/css/footer.css" type="text/css">
@@ -40,9 +46,6 @@
         <default-footer></default-footer>
 
         <script src="router.js" type="module"></script>
-         <!--CDN responsavel pelo alert personalizado-->
-        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-        <!--CDN responsavel pela api de envio de emails-->
-        <script src="https://smtpjs.com/v3/smtp.js"></script>
+         
     </body>
 </html>
