@@ -183,15 +183,3 @@
         width: 100vw;
     }
 }
-
-#details {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.5s ease;
-    opacity: 0 0.5s ease;
-}
-
-#details.visivel {
-    max-height: 1000px; /* Ajuste conforme o tamanho do conteúdo */
-    opacity: 1;
-}

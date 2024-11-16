@@ -11,5 +11,4 @@ document.addEventListener("eventoDoAbout", () => {
         details.classList.add('visivel')
     }
     });
-   
 })
