@@ -1,43 +1,50 @@
-//Importando os templates
-import home from './src/pages/home/home.js'
-import projects from './src/pages/projects/projects.js'
-import about from './src/pages/about/about.js'
-import contacts from './src/pages/contacts/contacts.js'
 
-const main = document.querySelector("#root")
+// Importando os templates
+import home from './src/pages/home/home.js';
+import projects from './src/pages/projects/projects.js';
+import about from './src/pages/about/about.js';
+import contacts from './src/pages/contacts/contacts.js';
 
-//O objeto HashChangeEvent manipula eventos que ocorrem quando a âncora de uma URL é alterada.
-const init = () =>{
-    window.addEventListener("hashchange", () => {
-        main.innerHTML = ""// Para não acrescentar as tags toda vez que selecionar uma rota
-        switch(window.location.hash){
-            case "":
-                main.appendChild(home());
-                break;
-            case "#about":
-                main.appendChild(about());
-                const eventoDoAbout = new Event("eventoDoAbout");
-                document.dispatchEvent(eventoDoAbout);
-                break;
-            case "#contacts":
-                main.appendChild(contacts());
-                const eventoDoContact = new Event("eventoDoContact");
-                document.dispatchEvent(eventoDoContact);
-                break;
-            case "#projects":
-                main.appendChild(projects())
-                break;
-            default:
-                //O ideal e colocar uma pagina de notFound
-                main.appendChild(home());
-        }
-    })
-}
+const main = document.querySelector("#root");
 
-//O load e um evento que diz a respeito do carregamento da janela ou seja depois que toda a janela carregar faça uma ação
+// Função para renderizar a página com base na hash
+const renderPage = () => {
+    main.innerHTML = ""; // Limpa o conteúdo existente
+    switch (window.location.hash) {
+        case "":
+            main.appendChild(home());
+            break;
+        case "#home":
+            main.appendChild(home());
+            break;
+        case "#about":
+            main.appendChild(about());
+            const eventoDoAbout = new Event("eventoDoAbout");
+            document.dispatchEvent(eventoDoAbout);
+            break;
+        case "#contacts":
+            main.appendChild(contacts());
+            const eventoDoContact = new Event("eventoDoContact");
+            document.dispatchEvent(eventoDoContact);
+            break;
+        case "#projects":
+            main.appendChild(projects());
+            break;
+        default:
+            // Página 404 ou redirecionar para a home
+            alert("Erro 404 Página não encontra!");
+    }
+};
+
+// Inicializa os eventos de rota
+const init = () => {
+    window.addEventListener("hashchange", renderPage);
+};
+
+// Evento de carregamento da página
 window.addEventListener("load", () => {
-    main.appendChild(home())// Toda vez que a página carregar, print o template home na tag main #root
-    init()// Chamando a função init após o carregamento da página index
+    renderPage(); // Renderiza a página inicial com base na hash
+    init(); // Inicializa o evento hashchange, Toda vez que a página carregar, print o template atual atravès do hashchange na tag main #root
     const onRouterFinishedEvent = new Event("onRouterFinished");
     document.dispatchEvent(onRouterFinishedEvent);
-})
+});

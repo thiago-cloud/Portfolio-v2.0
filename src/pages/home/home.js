@@ -4,6 +4,9 @@
 export default () =>{
     const container = document.createElement('div')//Criando uma div para adicionar todo o template
 
+    //Head
+    document.title = "Portfólio | Home";
+
     const template = `
         <link rel="stylesheet" href="../../assets/css/home.css" type="text/css">
             <section araia-label="Seção curriculo download Thiago" class="section-div">

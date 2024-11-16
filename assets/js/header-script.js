@@ -13,23 +13,39 @@ function onInitFunction() {
         document.body.classList.toggle('dark')
     })
 
-    //btn mobile
-    const menuMobile = document.getElementById('menu-mobile')
-    const clickFora = document.getElementById('menu-mobile')
+    //Menu moblie e btn mobile
+    // Elementos do DOM
+    const menuMobile = document.getElementById('menu-mobile');
+    const btnMenu = document.getElementById('btn-menu');
 
-    const btnMenu = document.getElementById('btn-menu')
+    // Função para abrir/fechar o menu e alternar animação
+    function toggleMenu() {
+        menuMobile.classList.toggle('abrir');
+        btnMenu.classList.toggle('ativar');
+    }
 
-    btnMenu.addEventListener('click', function(){
-        menuMobile.classList.toggle('abrir')
-    })
+    // Função para fechar o menu e remover animação
+    function closeMenu() {
+        menuMobile.classList.remove('abrir');
+        btnMenu.classList.remove('ativar');
+    }
 
-    const titulo = document.querySelector('.digitando');
-}
+    // Evento para abrir/fechar o menu ao clicar no botão
+    btnMenu.addEventListener('click', toggleMenu);
 
- //Animação do botão mobile
-function animar(){
-    const btn = document.getElementById('btn-menu')
-    btn.classList.toggle('ativar')
+    // Evento para fechar o menu ao clicar fora
+    document.addEventListener('click', (event) => {
+        if (!menuMobile.contains(event.target) && !btnMenu.contains(event.target)) {
+            closeMenu();
+        }
+    });
+
+    // Evento para fechar o menu ao clicar em um item do menu
+    menuMobile.addEventListener('click', (event) => {
+        if (event.target.tagName === 'A') { // Verifica se clicou em um link
+            closeMenu();
+        }
+    });
 }
 
 
