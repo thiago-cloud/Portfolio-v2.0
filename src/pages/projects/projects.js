@@ -30,7 +30,7 @@ export default () =>{
             <img src="../../assets/images/projects/form.png" alt="Imagem do projeto formulário">
             <h3>Form</h3>
             <p>Formulário com Validações! Este projeto demonstra a criação de um formulário de registro em HTML com validações realizadas em JavaScript puro.</p>
-            <a href="https://forms-js-wine.vercel.app/" target="_blank" class="btn">Vizualizar</a>
+            <a href="https://form-eight-pied.vercel.app/" target="_blank" class="btn">Vizualizar</a>
         </div>
 
         <div class="box">
