@@ -112,7 +112,7 @@
 /* iPhone 14 - Modo retrato */
 @media (min-device-width: 390px) and (max-device-width: 390px) and (min-device-height: 844px) and (max-device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
     .profile-container {
-        height: 70vh;
+        height: 80vh;
     }
     .profile-picture {
         width: 220px;
