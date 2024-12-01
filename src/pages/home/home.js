@@ -5,7 +5,7 @@ export default () =>{
     const container = document.createElement('div')//Criando uma div para adicionar todo o template
 
     //Head
-    document.title = "Portfólio | Home";
+    document.title = "Home | Portfólio";
 
     const template = `
         <link rel="stylesheet" href="../../assets/css/home.css" type="text/css">

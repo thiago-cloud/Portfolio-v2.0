@@ -2,7 +2,7 @@ export default () =>{
     const container = document.createElement('div')//Criando uma div para adicionar todo o template
 
     //Head
-    document.title = "  Portfólio | Contatos";
+    document.title = " Contatos | Portfólio";
 
     const template = `
         <link rel="stylesheet" href="../../assets/css/contacts.css" type="text/css">
@@ -23,7 +23,7 @@ export default () =>{
                         </div>
                         <div class="input-box">
                             <div class="input-field field">
-                                <input type="text" placeholder="Telefone" id="phone" class="item" autocomplete="off">
+                                <input type="text" placeholder="Celular" id="phone" class="item" autocomplete="off">
                                 <div class="error-txt">Numero de telefone não pode ficar em branco</div>
                             </div>
                             <div class="input-box">

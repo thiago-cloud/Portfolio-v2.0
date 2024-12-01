@@ -1,4 +1,4 @@
-document.addEventListener("eventoDoAbout", () => {
+document.addEventListener("onRouterFinished-About", () => {
     document.querySelector('.toggle-details').addEventListener('click', function() {
     const details = document.getElementById('details');
     

@@ -9,7 +9,7 @@ function ativarLetra(e){
 }
 
 //Acionando o evento que iniciara a função ativarLetra após a finalização do evento onRouterFinished
-document.addEventListener("onRouterFinished", () => {
+document.addEventListener("onRouterFinished-Home", () => {
     //Digitação
     const titulo = document.querySelector('.digitando');
     ativarLetra(titulo);
