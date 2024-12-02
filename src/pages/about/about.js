@@ -79,8 +79,7 @@ export default () =>{
                     </li>
                     <hr>
                 </ul>
-        </div>
-        
+        </div> 
     `
 
     container.innerHTML = template

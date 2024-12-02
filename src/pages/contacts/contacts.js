@@ -2,7 +2,7 @@ export default () =>{
     const container = document.createElement('div')//Criando uma div para adicionar todo o template
 
     //Head
-    document.title = " Contatos | Portfólio";
+    document.title = " Contato | Portfólio";
 
     const template = `
         <link rel="stylesheet" href="../../assets/css/contacts.css" type="text/css">
