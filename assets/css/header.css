@@ -94,7 +94,6 @@ header .navegacao-primaria li a:hover::after{
     height: 35px;
     margin-right: .5vw;
     border: 0.2px solid #707070;
-    
 }
 
 .login .senha{

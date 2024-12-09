@@ -34,8 +34,8 @@
     background-size: cover;
     background-position: center;
     width:40vw;
-    height: 400px;
-    margin-bottom: 110px;
+    height: 500px;
+    margin-top: 110px;
     border-radius: 15px;
     cursor:pointer;
     
@@ -68,7 +68,6 @@
 }
 
 .section-div div {
-    margin-top: 110px;
     align-self: start;
     display: grid;
     gap:50px;

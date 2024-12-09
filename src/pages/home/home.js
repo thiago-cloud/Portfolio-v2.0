@@ -11,12 +11,23 @@ export default () =>{
         <link rel="stylesheet" href="../../assets/css/home.css" type="text/css">
             <section araia-label="Seção curriculo download Thiago" class="section-div">
                 <div>
-                    <h2>Olá! Me Chamo Thiago</h2>
+                    <div>
+                        <h2>Olá! Me Chamo Thiago<br>Bem-vindo ao meu portfólio</h2>
+                    </div>
                     <h2 class="digitando">Web Developer FullStack</h2>
-                    <p>Sou um desenvolvedor web fullstack dedicado voltado para a área de engenharia de software, com um conjunto.
-                    diversificado de interesses e habilidades. Como entusiasta incansável, encontro prazer em mergulhar em estudos que expandem meus horizontes e me desafiam intelectualmente. 
-                    Além disso, na vida pessoal, sou um entusiasta da saúde e do bem-estar, incorporando a prática regular de atividades físicas.
-                    Em minha rotina, para manter um equilíbrio saudável entre mente e corpo, o que ajuda na minha produtividade.
+                    <p>
+                        Sou desenvolvedor Web fullstack com experiência em engenharia de software e um 
+                        conjunto diversificado de habilidades. Trabalhei na Neobpo no setor multifuncional N1, 
+                        prestando atendimento eficiente e humanizado para a Claro. No suporte técnico (help desk), abri chamados, 
+                        realizei manutenção de máquinas, configurei redes e utilizei Hyper-V para virtualização. Como analista de 
+                        backoffice N2, tratava dados recebidos via e-mail, chat e videochamada, organizava-os no Excel e exportava 
+                        para o sistema Qualinet, gerando ordens de serviço que permitiam à equipe técnica solucionar 
+                        problemas remotamente, reduzindo custos com visitas desnecessárias.
+                        Durante meu estágio em desenvolvimento de software na Effetive Sistemas, auxiliei no desenvolvimento de 
+                        soluções para os clientes Michelin e MV Saúde. Contribuí no desenvolvimento de APIs REST e trabalhei no 
+                        front-end utilizando Angular e boas práticas de programação. Além disso, aprofundei meus conhecimentos 
+                        em metodologias ágeis, especialmente no Scrum.
+                        Atualmente, sou criador da marca AcendCode, que reflete meu compromisso no desenvolvimento de software.
                     </p>
                         <a href="../../assets/arquivoCV/Curriculo_TI_Thiago_Alves.pdf" download>Download CV</a>
                 </div>

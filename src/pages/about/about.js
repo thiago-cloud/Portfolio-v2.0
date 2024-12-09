@@ -26,38 +26,37 @@ export default () =>{
                 <ul>
                     <hr>
                     <li>
-                        <h3>Web Developer | Effetive Sistemas</h3>
+                        <h3>Desenvolvedor Web | Effetive Sistemas</h3>
                         <p>
-                            Como estagiário, fui responsável pela manutenção dos sites
-                            da Michelin e Sascar, utilizando tecnologias como PHP,
-                            WordPress, JavaScript, CSS e HTML. Realizei atualizações de
-                            conteúdo, correção de bugs, otimização de desempenho e
-                            implementação de novos recursos, seguindo as diretrizes da
-                            empresa. Colaborei com a equipe de desenvolvimento,
-                            utilizando o método ágil Scrum e ferramentas como Trello e
-                            Bitrix24 para organizar as tarefas da sprint.
+                            Como estagiário fui responsável pela manutenção do site da Michelin e MV Saúde, 
+                            utilizei tecnologias como Java, Spring Boot, Angular, JavaScript, CSS e HTML para garantir que 
+                            o site esteja sempre atualizado, funcional e atraente para os usuários. Minhas responsabilidades incluíram realizar 
+                            atualizações de conteúdo, corrigir bugs, otimizar o desempenho do site, desenvolvimento de APIs, 
+                            e implementação de novos recursos conforme as diretrizes da empresa. 
+                            Trabalhando em colaboração com a equipe de desenvolvimento, 
+                            empregando método ágil scrum com auxílio de algumas ferramentas como 
+                            Trello e bitrix24 para organização das tarefas da Sprint.
                         </p>
                     </li>
                     <hr>
                     <li>
                         <h3>Suporte de TI | Neobpo</h3>
                         <p>
-                            Realizei abertura de chamados para resolver problemas de
-                            software e hardware, fazendo manutenção, atualizações e
-                            backups. Gerenciei redes e dispositivos de impressão, defini
-                            políticas de firewall, virtualizei máquinas usando Hyper-V,
-                            configurei IP, DHCP e DNS, instalei servidores Windows
-                            server e Linux, e gerenciei domínios incluindo usuários
-                            grupos e computadores via Active Directory(AD/DS).
+                            Realizei abertura de chamados para resolução de problemas de software e hardware, 
+                            oferecendo manutenção, atualizações e backups. Contribuí no gerenciamento de redes, 
+                            dispositivos de impressão, políticas de firewall e virtualização de máquinas com Hyper-V. Configurei IP, DHCP e DNS, 
+                            além de auxiliar na instalação de servidores Windows Server e Linux. 
+                            Também atuei auxiliando na administração de domínios, incluindo gestão de usuários, grupos e computadores 
+                            por meio do Active Directory (AD/DS), sempre com foco em garantir uma boa infraestrutura.
                         </p>
                     </li>
                     <hr>
                     <li>
-                        <h3>Analista de Backoffice | Neobpo</h3>
+                        <h3>Analista de Backoffice N2 | Neobpo</h3>
                         <p>
                             Minha experiência envolveu receber informações cruciais do
                             setor técnico COP de várias regiões do Brasil, via
-                            telefonemas, e-mails ou outros canais. Analisei e verifiquei a
+                            e-mails, chat, e vídeo chamadas ou outros canais. Analisei e verifiquei a
                             veracidade desses dados no Excel, filtrando e registrando de
                             forma precisa no sistema Qualinet. Essas informações se
                             traduziram em ordens de serviço para o suporte técnico
@@ -70,11 +69,10 @@ export default () =>{
                     <li>
                         <h3>Atendimento Multifuncional N1 | Neobpo</h3>
                         <p>
-                            No papel principal de atendimento ao cliente, desenvolvi
-                            empatia para proporcionar um atendimento mais humanizado
-                            e confortável. Minhas funções incluíam agendamentos,
-                            alterações cadastrais e fornecimento de informações via
-                            ligações e chat, utilizando o sistema netsms.
+                            Atuei no atendimento ao cliente, oferecendo suporte humanizado para proporcionar 
+                            um atendimento mais acolhedor e eficiente. Minhas funções incluíam agendamentos, 
+                            alterações cadastrais e fornecimento de informações via ligações e chat, 
+                            utilizando o sistema netsms, new datecenter, net sales, avaya e solar.
                         </p>
                     </li>
                     <hr>

@@ -4,7 +4,7 @@ function OnInitProject() {
         {
             title: "FastSnack",
             description: "A aplicação web de solicitação de pedidos de fast food, desenvolvida com Vue 3, oferece uma interface intuitiva para facilitar o processo de pedidos.",
-            img: "../../assets/images/projects/appBurger.png",
+            img: "../../assets/images/projects/fastSnack.jpeg",
             link: "https://app-burger-bice.vercel.app/"
         },
         {
@@ -20,9 +20,9 @@ function OnInitProject() {
             link: "https://forms-js-wine.vercel.app/"
         },
         {
-            title: "Kanban_log",
+            title: "KanbanLog",
             description: "Aplicação que permite registrar anotações e tópicos que estão sendo aprendidos. Utilizando Django, o software inclui autenticação e registro de dados.",
-            img: "../../assets/images/projects/kanban_log.png",
+            img: "../../assets/images/projects/kanbanLog.jpeg",
             link: "https://kanbanlog-project.vercel.app/"
         }
     ];

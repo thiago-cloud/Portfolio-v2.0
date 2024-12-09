@@ -69,7 +69,9 @@
 }
 
 .card img{
-    height: 80px;
+    height: 120px;
+    width:150px;
+    border-radius: 5px;
 }
 
 .card h3{
