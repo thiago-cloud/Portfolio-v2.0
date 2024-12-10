@@ -62,6 +62,8 @@
     grid-template-columns: 1fr 1fr;
     justify-content: space-around;
     align-items: center;
+    position: relative;
+    z-index: -1;
     gap:60px;
     padding: 40px;
     animation:iniciar .7s forwards;/*Ao inciar a pagina ele iniciar de formar transparante ate fica vidente*/
@@ -71,6 +73,8 @@
     align-self: start;
     display: grid;
     gap:50px;
+    position: relative;
+    z-index: -1;
 }
 
 .section-div div h2{
@@ -120,7 +124,7 @@ main{
 }
 
 .sobre_texto{
-    margin-top:5vh;
+    margin-top:2vh;
     margin-left:-3vw;
 }
 
@@ -140,6 +144,8 @@ main{
 main .sobre{
     display:grid;
     grid-template-columns: 1fr 1fr;
+    position: relative;
+    z-index: -1;
     gap:10px;
     justify-content: center;
     padding:40px;
@@ -232,10 +238,12 @@ main .sobre{
         display: grid;
         grid-template-columns: 1fr;
         padding: 10px;
+        position: relative;
+        z-index: -1;
     }
 
     .section-div div{
-        margin-top: 10vh;
+        margin-top: 3vh;
     }
 
     .section-div p {
@@ -296,6 +304,8 @@ main .sobre{
         gap:30px;
         justify-content: center;
         padding:50px;
+        position:relative;
+        z-index:-1;
     }
 
     main .sobre-info{
@@ -384,10 +394,12 @@ main .sobre{
         display: grid;
         grid-template-columns: 1fr;
         padding: 10px;
+        position: relative;
+        z-index: -1;
     }
 
     .section-div div{
-        margin-top: 10vh;
+        margin-top: 3vh;
     }
 
     .section-div p {
@@ -448,6 +460,8 @@ main .sobre{
         gap:30px;
         justify-content: center;
         padding:50px;
+        position:relative;
+        z-index:-1;
     }
 
     main .sobre-info{
@@ -526,7 +540,13 @@ main .sobre{
 
     .section-div{
         position: relative;
-        top:-25vh;
+        top:4vh;
+        position:relative;
+        z-index: -1;
+    }
+
+    .sobre_titulo{
+        margin-top: 20vh;
     }
 }
 
@@ -535,6 +555,9 @@ main .sobre{
     .section-div {
         grid-template-columns: 1fr;
         height: 150vh;
+        position: relative;
+        z-index: -1;
+        top:3vh;
     }
 
     .image{
@@ -542,11 +565,11 @@ main .sobre{
     }
 
     .section-div div a{
-        width:95vw;
+        width:87vw;
         text-align: center;
         color:#fff;
         border:none;
-        background-color: #3016ec;
+        background-color: #0ef;
     }
 
     .section-div div a:hover{
@@ -571,6 +594,8 @@ main .sobre{
     .section-div{
         grid-template-columns: 1fr;
         height: 190vh;
+        position: relative;
+        z-index: -1;
     }
 
     .section-div div a {
@@ -665,6 +690,7 @@ main .sobre{
         background-position: center;
         height: 70vh;
         position: relative;
+        z-index: -1;
         top: -2vh;
     }
 

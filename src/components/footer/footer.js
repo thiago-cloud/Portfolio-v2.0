@@ -15,7 +15,7 @@ class Footer extends HTMLElement{
                         <li title="Linkedin"><a href="https://linkedin.com/in/thiago-alves-74927a241"><i style="color:#0E76A8;" class="fa-brands fa-linkedin"></i></a></li>
                     </ul>
                 </div>
-                <p class="reservados">Todos os direitos reservados - DEV Thiago © - 2023</p>
+                <p class="reservados">Todos os direitos reservados - AscendCode © - 2024</p>
             </footer>
         `
     }

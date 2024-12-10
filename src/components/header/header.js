@@ -1,10 +1,11 @@
 
 class Header extends HTMLElement{
+    
     connectedCallback(){
         const headerComponent = ` 
             <header>
                 <nav>
-                    <a href="/#home" class="titulo-principal"><h1>Dev<span>Thiago</span></h1> </a>
+                    <a href="/#home" class="titulo-principal"><img src="../../../assets/images/logo/AscendCode-logo.png" alt=""></a>
                     <ul class="navegacao-primaria">
                         <li><a href="/#home">Home</a></li>
                         <li><a href="/#projects">Projetos</a></li>
@@ -35,7 +36,9 @@ class Header extends HTMLElement{
                 </nav>
                 <!--head Mobile-->
                 <div class="head-mobile">
-                    <a href="/#home" class="titulo-mobile" ><h1>Dev<span>Thiago</span></h1> </a>
+                    <a href="/#home" class="titulo-mobile" >
+                        <img class="logoAscendCode" src="../../../assets/images/logo/AscendCode-logo.png" alt="logo AscendCode">
+                    </a>
                     <button onclick="animar()" class="btn-menu" id="btn-menu">
                         <span class="linha"></span>
                         <span class="linha"></span>
