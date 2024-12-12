@@ -16,17 +16,15 @@ export default () =>{
                     </div>
                     <h2 class="digitando">Web Developer FullStack</h2>
                     <p>
-                        Sou desenvolvedor Web fullstack com experiência em engenharia de software e um 
-                        conjunto diversificado de habilidades. Trabalhei na Neobpo no setor multifuncional N1, 
-                        prestando atendimento eficiente e humanizado para a Claro. No suporte técnico (help desk), abri chamados, 
-                        realizei manutenção de máquinas, configurei redes e utilizei Hyper-V para virtualização. Como analista de 
-                        backoffice N2, tratava dados recebidos via e-mail, chat e videochamada, organizava-os no Excel e exportava 
-                        para o sistema Qualinet, gerando ordens de serviço que permitiam à equipe técnica solucionar 
-                        problemas remotamente, reduzindo custos com visitas desnecessárias.
-                        Durante meu estágio em desenvolvimento de software na Effetive Sistemas, auxiliei no desenvolvimento de 
-                        soluções para os clientes Michelin e MV Saúde. Contribuí no desenvolvimento de APIs REST e trabalhei no 
-                        front-end utilizando Angular e boas práticas de programação. Além disso, aprofundei meus conhecimentos 
-                        em metodologias ágeis, especialmente no Scrum.
+                        Tenho um perfil diversificado voltados para resolução de problemas e atendimento ao cliente com experiência no setor 
+                        multifuncional N1, analista de BackOffice N2, suporte técnico de TI e desenvolvimento web. No atendimento, aprimorei a 
+                        empatia e a agilidade, o que me garantiu um serviço humanizado eficiente. No BackOffice, me destaquei pela análise e 
+                        verificação de dados cruciais para a produção de ordens de serviço. No suporte de TI, tive a oportunidade de auxiliar na 
+                        manutenção de software e hardware, virtualização de máquinas, gerenciamento de redes e usuários. Como 
+                        estagiário contribui na manutenção e otimização de sites, trabalhando com metodologia ágil como o Scrum e 
+                        tecnologias como Java, Spring Boot, HTML, CSS e JavaScript. Além disso, nos meus momentos de lazer, 
+                        gosto muito de ler e curtir a natureza com meus amigos, o que me permite renovar as energias e trazer novas 
+                        perspectivas para os desafios do dia a dia. 
                         Atualmente, sou criador da marca AcendCode, que reflete meu compromisso no desenvolvimento de software.
                     </p>
                         <a href="../../assets/arquivoCV/Curriculo_TI_Thiago_Alves.pdf" download>Download CV</a>

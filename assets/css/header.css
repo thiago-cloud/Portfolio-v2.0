@@ -301,7 +301,7 @@ header .navegacao-primaria li a:hover::after{
         z-index: 999;
         padding: 20px;
         display: block;
-        background-color: #0ef;
+        background-color: #09d2e0;
         top:0;
         box-shadow: 1px 3px 40px #0ef;
         opacity: 0.9;
@@ -310,10 +310,10 @@ header .navegacao-primaria li a:hover::after{
     .head-mobile .btn-menu {
         width:12vw;
         height:6vh;
-        border: 2px solid #0ef;
+        border: 2px solid #09d2e0;
         cursor:pointer;
         border-radius: 5px;
-        background-color:#0ef;
+        background-color:#09d2e0;
         visibility: visible;
         position: absolute;
         top: 2vh;
@@ -458,7 +458,7 @@ header .navegacao-primaria li a:hover::after{
         z-index: 999;
         padding: 20px;
         display: block;
-        background-color: #0ef;
+        background-color: #09d2e0;
         position: fixed;
         top:0;
         box-shadow: 1px 3px 40px #0ef;
@@ -468,10 +468,10 @@ header .navegacao-primaria li a:hover::after{
     .head-mobile .btn-menu {
         width:12vw;
         height:6vh;
-        border: 2px solid #0ef;
+        border: 2px solid #09d2e0;
         cursor:pointer;
         border-radius: 5px;
-        background-color: #0ef;
+        background-color: #09d2e0;
         visibility: visible;
         position: absolute;
         top: 2vh;
@@ -670,7 +670,7 @@ header .navegacao-primaria li a:hover::after{
         z-index: 999;
         padding: 20px;
         display: block;
-        background-color: #0ef;
+        background-color: #09d2e0;
         top:0;
         box-shadow: 1px 3px 40px #0ef;
         opacity: 0.9;
@@ -680,10 +680,10 @@ header .navegacao-primaria li a:hover::after{
     .head-mobile .btn-menu {
         width:12vw;
         height:6vh;
-        border: 2px solid #0ef;
+        border: 2px solid #09d2e0;
         cursor:pointer;
         border-radius: 5px;
-        background-color:#0ef;
+        background-color:#09d2e0;
         visibility: visible;
         position: absolute;
         top: 2vh;
@@ -835,7 +835,7 @@ header .navegacao-primaria li a:hover::after{
         z-index: 999;
         padding: 20px;
         display: block;
-        background-color: #0ef;
+        background-color: #09d2e0;
         position: fixed;
         top:0;
         box-shadow: 1px 3px 40px #0ef;
@@ -846,10 +846,10 @@ header .navegacao-primaria li a:hover::after{
     .head-mobile .btn-menu {
         width:7vw;
         height:16vh;
-        border: 2px solid #0ef;
+        border: 2px solid #09d2e0;
         cursor:pointer;
         border-radius: 5px;
-        background-color: #0ef;
+        background-color: #09d2e0;
         visibility: visible;
         position: absolute;
         top: 2vh;
