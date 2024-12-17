@@ -23,7 +23,7 @@ function OnInitProject() {
             title: "KanbanLog",
             description: "Aplicação que permite registrar anotações e tópicos que estão sendo aprendidos. Utilizando Django, o software inclui autenticação e registro de dados.",
             img: "../../assets/images/projects/kanbanLog.jpeg",
-            link: "https://kanbanlog-project.vercel.app/"
+            link: "https://kanbanlog.vercel.app/"
         }
     ];
 
