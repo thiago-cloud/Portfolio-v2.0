@@ -8,6 +8,12 @@ function OnInitProject() {
             link: "https://app-burger-bice.vercel.app/"
         },
         {
+            title: "JobWise",
+            description: "JobWise é uma aplicação ERP de gerenciamento de recursos humanos (RH), desenvolvida em Spring Boot e Thymeleaf.",
+            img: "../../assets/images/projects/JobWise.jpeg",
+            link: "#"
+        },
+        {
             title: "Cadastro de Produtos",
             description: "Uma aplicação web CRUD desenvolvida em Angular 18 permite realizar o cadastro, leitura, atualização e exclusão de produtos.",
             img: "../../assets/images/projects/cadastroProdutos.png",
@@ -24,6 +30,12 @@ function OnInitProject() {
             description: "Aplicação que permite registrar anotações e tópicos que estão sendo aprendidos. Utilizando Django, o software inclui autenticação e registro de dados.",
             img: "../../assets/images/projects/kanbanLog.jpeg",
             link: "https://kanbanlog-project.vercel.app/"
+        },
+        {
+            title: "ListNest",
+            description: "ListNest é uma aplicação desenvolvida em Angular e Spring Boot que permite criar, organizar e gerenciar listas de produtos de supermercado.",
+            img: "../../assets/images/projects/listNest.jpeg",
+            link: "#"
         }
     ];
 
