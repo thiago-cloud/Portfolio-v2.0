@@ -27,7 +27,8 @@ export default () =>{
                         perspectivas para os desafios do dia a dia. 
                         Atualmente, sou criador da marca AcendCode, que reflete meu compromisso no desenvolvimento de software.
                     </p>
-                        <a href="../../assets/arquivoCV/Curriculo_TI_Thiago_Alves.pdf" download>Download CV</a>
+                        <a href="../../assets/arquivoCV/Curriculo_TI_Thiago_Alves.pdf" download >Download CV</a>
+                        
                 </div>
                 <!--<img src="img/dev.png" alt="Ilustrativa imagem de uma pessoa">-->
                 <div class="image" alt="Ilustrativa imagem de uma pessoa" title="Ilustrativa imagem de uma pessoa"></div>

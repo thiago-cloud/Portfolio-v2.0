@@ -7,9 +7,9 @@ section.dark{
     background-color:#232c35;
 }
 
-header.dark{
+/*header.dark{
     background-color:#232c35;
-}
+}*/
 
 main.dark{
     background-color:#232c35;
@@ -24,7 +24,9 @@ header {
     width: 100vw;
     background-color: #0ef;
     opacity: 0.9;
-    box-shadow: 1px 3px 40px #0ef;;
+    box-shadow: 1px 3px 40px #0ef;
+    position:fixed;
+    z-index: 999;
 }
 
 .titulo-principal img{

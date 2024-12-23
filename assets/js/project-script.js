@@ -5,37 +5,37 @@ function OnInitProject() {
             title: "FastSnack",
             description: "A aplicação web de solicitação de pedidos de fast food, desenvolvida com Vue 3, oferece uma interface intuitiva para facilitar o processo de pedidos.",
             img: "../../assets/images/projects/fastSnack.jpeg",
-            link: "https://app-burger-bice.vercel.app/"
+            link: "https://github.com/thiago-cloud/FastSnack"
         },
         {
             title: "JobWise",
             description: "JobWise é uma aplicação ERP de gerenciamento de recursos humanos (RH), desenvolvida em Spring Boot e Thymeleaf.",
             img: "../../assets/images/projects/JobWise.jpeg",
-            link: "#"
+            link: "https://github.com/thiago-cloud/JobWise"
         },
         {
             title: "Cadastro de Produtos",
             description: "Uma aplicação web CRUD desenvolvida em Angular 18 permite realizar o cadastro, leitura, atualização e exclusão de produtos.",
             img: "../../assets/images/projects/cadastroProdutos.png",
-            link: "https://cadastro-de-produtos-rouge.vercel.app/"
+            link: "https://github.com/thiago-cloud/cadastro-de-produtos"
         },
         {
             title: "Form",
             description: "Formulário com Validações! Este projeto demonstra a criação de um formulário de registro em HTML com validações realizadas em JavaScript puro.",
             img: "../../assets/images/projects/form.png",
-            link: "https://forms-js-wine.vercel.app/"
+            link: "https://github.com/thiago-cloud/Form"
         },
         {
             title: "KanbanLog",
             description: "Aplicação que permite registrar anotações e tópicos que estão sendo aprendidos. Utilizando Django, o software inclui autenticação e registro de dados.",
             img: "../../assets/images/projects/kanbanLog.jpeg",
-            link: "https://kanbanlog-project.vercel.app/"
+            link: "https://github.com/thiago-cloud/Kanban_log"
         },
         {
             title: "ListNest",
-            description: "ListNest é uma aplicação desenvolvida em Angular e Spring Boot que permite criar, organizar e gerenciar listas de produtos de supermercado.",
+            description: "ListNest é uma aplicação mobile PWA desenvolvida em Angular e Spring Boot que permite criar, organizar e gerenciar listas de produtos de supermercado.",
             img: "../../assets/images/projects/listNest.jpeg",
-            link: "#"
+            link: "https://github.com/thiago-cloud/ListNest"
         }
     ];
 

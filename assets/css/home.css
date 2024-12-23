@@ -63,6 +63,7 @@
     justify-content: space-around;
     align-items: center;
     position: relative;
+    top:15vh;
     z-index: -1;
     gap:60px;
     padding: 40px;
@@ -81,8 +82,8 @@
     font-family: 'poppins';
     font-weight: 600;
     color:#707070;
-
 }
+
 .section-div p {
     font-family: 'poppins';
     font-weight: 500;
@@ -90,27 +91,27 @@
     font-style: italic;
 }
 
-.section-div div a{
+.section-div div a {
     justify-self: start;
-    color:#333;
+    color: #333;
     box-shadow: 0 0 10px #0ef;
     font-weight: 600;
     background-color: #0ef;
     padding: 15px;
-    border-radius:5px;
+    border-radius: 5px;
+    display: inline-block; /* Garante que padding e transform funcionem */
+    text-decoration: none; /* Remove o sublinhado padrão */
 }
 
-.section-div div a:hover{
-    justify-self: start;
-    color:#333;
+.section-div div a:hover {
+    cursor: pointer;
+    color: #333;
     padding: 15px;
-    border-radius:5px;
-    background-color: aqua;
-    border: none;
-    transform: scale(1.2);
-    transition: .6s;
+    border-radius: 5px;
+    background-color: aqua  ;
+    transform: scale(1.2) ;
+    transition: 0.6s;
     letter-spacing: 1px;
-    box-shadow: none;
     box-shadow: inset 5em 1em #0ef;
 }
 
@@ -149,6 +150,7 @@ main .sobre{
     gap:10px;
     justify-content: center;
     padding:40px;
+    top:15vh;
 }
 .sobre_titulo{
     margin-bottom:5vh;
@@ -540,7 +542,7 @@ main .sobre{
 
     .section-div{
         position: relative;
-        top:4vh;
+        top:20vh;
         position:relative;
         z-index: -1;
     }
@@ -557,7 +559,7 @@ main .sobre{
         height: 150vh;
         position: relative;
         z-index: -1;
-        top:3vh;
+        top:20vh;
     }
 
     .image{
@@ -572,10 +574,10 @@ main .sobre{
         background-color: #0ef;
     }
 
-    .section-div div a:hover{
+    /*.section-div div a:hover{
         transform: scale(1);
         background-color: #3016ec;
-    }
+    }*/
 
     main .sobre{
         grid-template-columns: 1fr;

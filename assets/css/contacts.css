@@ -21,8 +21,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 8vh;
-    margin-bottom: 8vh;
+    position: relative;
+    top:22vh;
+    margin-bottom:10vh;
 }
 
 .contact h2{
@@ -106,6 +107,7 @@ form button:hover {
 @media(min-width: 320px) and (max-width:427px){
     .contact{
         margin-left:17px;
+        margin-bottom:15vh;
     }
 
     form .input-box{
@@ -123,9 +125,9 @@ form button:hover {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 8vh;
         margin-bottom: 8vh;
         margin-left:20px;
+        margin-bottom:15vh;
     }
 
     form .input-box{
@@ -143,9 +145,10 @@ form button:hover {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 8vh;
-        margin-bottom: 8vh;
+        position:relative;
+        top:20vh;
         margin-left:20px;
+        margin-bottom:15vh;
     }
 
     form .input-box{
@@ -161,6 +164,8 @@ form button:hover {
 /*Rotação mobile*/
 @media(min-width:600px) and (max-width:950px){
     .contact{
-        margin-top:20vh;
+        position: relative;
+        top: 30vh;
+        margin-bottom: 15vh;
     }
 }
