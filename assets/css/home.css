@@ -138,8 +138,8 @@ main{
 }
 
 .sobre_texto ul li{
-    padding: 10px;
-    margin:5px;
+    padding: 5px;
+    margin:1px;
 }
 
 main .sobre{
@@ -193,8 +193,8 @@ main .sobre{
 /*skill*/
 
 .sobre_texto ul li img{
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     cursor:pointer;
 }
 
