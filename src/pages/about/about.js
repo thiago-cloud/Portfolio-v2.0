@@ -18,11 +18,14 @@ export default () =>{
                     <a href="https://twitter.com/" target="_blank">Twitter</a>
                 </div>-->
             </div>
-            <div class="container-button">
-                <button class="toggle-details">Detalhes</button>
+            <div class="container-button-1">
+                <button class="toggle-details"><a href="../../assets/arquivoCV/Curriculo_TI_Thiago_Alves.pdf" download>Download CV</a></button>
+            </div>
+            <div class="container-button-2">
+                <button class="toggle-details" id="toggle-details">Experiências</button>
             </div>
             <div class="details-section" id="details">
-                <h2 id="sobre">Experiências</h2>
+                <!--<h2 id="sobre">Experiências</h2>-->
                 <ul>
                     <hr>
                     <li>

@@ -17,12 +17,15 @@ const routes = {
     "#projects": { component: projects, event: "onRouterFinished-Projects" },
 };
 
+
+
 // Função para renderizar a página com base na hash
 const renderPage = () => {
     main.innerHTML = ""; // Limpa o conteúdo anterior
 
     const route = routes[window.location.hash] || { component: error404, event: "onRouterFinished-404" };
 
+    console.log(route.component());
     main.appendChild(route.component()); // Adiciona o componente da rota
 
     // Dispara o evento correspondente à rota
