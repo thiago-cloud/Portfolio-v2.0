@@ -8,6 +8,7 @@
     text-decoration: none;
     color:#707070;
     font-family: 'Poppins';
+    transition: .2s linear;
 }
 
 body {

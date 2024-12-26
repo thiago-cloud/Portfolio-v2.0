@@ -1,3 +1,4 @@
+
 .visivel{
     margin-top: 20px;
 }
@@ -21,6 +22,7 @@
 }
 
 .container-button-2{
+    margin-top: 30px;
     padding-bottom: 40px;
 }
 
@@ -68,14 +70,14 @@
     background-color:#0ef;
     box-shadow: 0 0 10px #0ef;
     color:#333;
-    padding: 8px 25px;
-    font-size:17px;
+    padding: 12px 15%;
+    font-size:16px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-weight: 600;
+    
     transition: background-color 0.3s ease;
-    width:40%;
 }
 
 .toggle-details a{
@@ -83,21 +85,28 @@
 }
 
 .toggle-details:hover{
+    transition: .2s linear;
     letter-spacing: 1px;
     background-color:#0ef;
     box-shadow: none;
 }
 
 .details-section {
-    display: none;
-    margin-top: 0;
+    display: none; /* Inicialmente oculto */
+    max-height: 0; /* Altura inicial 0 */
+    overflow: hidden; /* Oculta conteúdo excedente */
+    transition: max-height 0.5s ease; /* Transição suave para altura */
+    margin-top: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
-.details-section h2{
-    font-size: 30px;
-    color:#fff;
-    margin-bottom: 10px;
+.details-section.visible {
+    display: block; /* Mostra o conteúdo */
+    background: linear-gradient(45deg, blueviolet, lightgreen);
 }
+
 
 .details-section ul li h3{
     font-size: 20px;
