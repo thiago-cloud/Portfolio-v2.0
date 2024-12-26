@@ -10,22 +10,11 @@ export default () =>{
         <div class="about-section">
             <div class="profile-container">
                 <img src="../../assets/images/Perfil.jpeg" alt="Profile Picture" class="profile-picture">
-                <h1 class="name">Thiago Alves</h1>
+                <h1 class="name">
+                    Thiago Alves
+                </h1>
                 <p class="bio">Desenvolvedor Web | Engenheiro de Software | Programador</p>
-                <!--<div class="social-links">
-                    <a href="https://github.com/" target="_blank">GitHub</a>
-                    <a href="https://linkedin.com/" target="_blank">LinkedIn</a>
-                    <a href="https://twitter.com/" target="_blank">Twitter</a>
-                </div>-->
             </div>
-            <!--<div class="container-button-1">
-                <button class="toggle-details"><a href="../../assets/arquivoCV/Curriculo_TI_Thiago_Alves.pdf" download>Download CV</a></button>
-            </div>
-            <div class="container-button-2">
-                <button class="toggle-details" id="toggle-details">Experiências</button>
-            </div>
-            <div class="details-section" id="details">-->
-
             <div class="container-button-1">
                 <a href="../../assets/arquivoCV/Curriculo_TI_Thiago_Alves.pdf" class="toggle-details"  download> 
                     Download CV 

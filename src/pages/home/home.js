@@ -26,11 +26,8 @@ export default () =>{
                         gosto muito de ler e curtir a natureza com meus amigos, o que me permite renovar as energias e trazer novas 
                         perspectivas para os desafios do dia a dia. 
                         Atualmente, sou criador da marca AcendCode, que reflete meu compromisso no desenvolvimento de software.
-                    </p>
-                    <!--<a id="acao" href="../../assets/arquivoCV/Curriculo_TI_Thiago_Alves.pdf" download >Download CV</a>-->
-                        
+                    </p>  
                 </div>
-                <!--<img src="img/dev.png" alt="Ilustrativa imagem de uma pessoa">-->
                 <div class="image" alt="Ilustrativa imagem de uma pessoa" title="Ilustrativa imagem de uma pessoa"></div>
             </section>
             <main>
@@ -39,7 +36,6 @@ export default () =>{
                         <h1>Resumo</h1>
                         <p>Perfil Profissional</p>
                     </div>
-                    <!--<img src="img/dev.png" alt="Imagem de uma pessoa ilustrativa">-->
                     <div class="image2" alt="Ilustrativa imagem de um notebook" title="Ilustrativa imagem de um notebook"></div>
                     <div class="sobre_texto">
                         <h1>Hard Skills - Thiago</h1><br>
@@ -73,15 +69,8 @@ export default () =>{
                             <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-plain.svg" /></li>
                             <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-original-wordmark.svg" /></li>
                             <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redhat/redhat-original.svg" /></li>
-
                         </ul>
                     </div>
-                    <!--Carrocel-->
-                    <!--<div class="radio-image" aria-label="Seção apenas de ilustrações de botões">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>-->
                 </article>
             </main>
     `

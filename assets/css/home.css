@@ -1,6 +1,5 @@
 
 /*Piscar cursor*/
-
 .digitando::after{
     content:'|';
     margin-left:5px;
@@ -573,11 +572,6 @@ main .sobre{
         background-color: #0ef;
     }
 
-    /*.section-div div a:hover{
-        transform: scale(1);
-        background-color: #3016ec;
-    }*/
-
     main .sobre{
         grid-template-columns: 1fr;
     }
@@ -676,7 +670,6 @@ main .sobre{
 }
 
 /*Responsividade Tablet*/
-
 @media(min-width:540px) and (max-width:1024px) and (min-height:600px) and (max-height:1366px){
     
     header{
@@ -722,7 +715,6 @@ main .sobre{
         height: 50vh;
         width: 95vw;
         background-position: center;
-        
     }
 
     .image{
@@ -822,7 +814,6 @@ main .sobre{
     }
 
     /*Tema claro Escuro Mobile*/
-
     .checkbox-mobile{
         display:none;
     }

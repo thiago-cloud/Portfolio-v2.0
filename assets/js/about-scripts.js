@@ -4,6 +4,7 @@ document.addEventListener("onRouterFinished-About", () => {
     const details = document.getElementById('details');
 
     toggleButton.addEventListener('click', function () {
+        
         if (details.classList.contains('visible')) {
             
             details.style.maxHeight = "0"; // Recolhe o conteúdo
@@ -26,7 +27,5 @@ document.addEventListener("onRouterFinished-About", () => {
 
         }
     });
-
-
 
 })

@@ -39,7 +39,6 @@ function OnInitProject() {
         }
     ];
 
-
     const cardContainer = document.querySelector('.card-container');
     const searchInput = document.querySelector('#searchInput');
 

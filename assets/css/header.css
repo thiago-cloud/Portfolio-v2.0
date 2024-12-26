@@ -7,10 +7,6 @@ section.dark{
     background-color:#232c35;
 }
 
-/*header.dark{
-    background-color:#232c35;
-}*/
-
 main.dark{
     background-color:#232c35;
 }
@@ -92,86 +88,6 @@ header .navegacao-primaria li a:hover::after{
     width: 100%;
 }
 
-/*login*/
-
-.login{
-    margin-left:20px;
-    display: flex;
-}
-
-.login .user{
-    width: 180px;
-    padding: 8px;
-    border-radius: 5px;
-    outline: none;
-    font-size: 12pt;
-    height: 35px;
-    margin-right: .5vw;
-    border: 0.2px solid #707070;
-}
-
-.login .senha{
-    width: 180px;
-    padding: 8px;
-    padding-right: 32px;
-    border-radius: 5px;
-    outline: none;
-    font-size: 12pt;
-    height: 35px;
-    border: 0.2px solid #707070;
-}
-
-.login .btn-login{
-    cursor:pointer;
-    padding: 8px;
-    width:110px;
-    height: 35px;
-    border-radius: 5px;
-    background-color: #3016ec;
-    margin-left:1vw;
-    border: none;
-    color:azure;
-}
-
-.login .btn-login:hover{
-    background-color:#f1c40f;
-    color:azure;
-    
-}
-
-.cadastro{
-   position:absolute;
-   left:92.5vw;
-   top:85px;
-   margin:5px;
-}
-
-.cadastro a{
-    color:#3016ec;
-    margin-top:5px;
-    font-weight: 500;
-}
-
-.cadastro a:hover{
-    color:#f1c40f;
-    text-decoration: underline;
-}
-
-.login div{
-    position: relative;
-}
-
-.login div i{
-    cursor: pointer;
-    font-size: 20px;
-    right: 9%;/*Faz com que olho entre dentro do input*/
-    color:#999594d7;
-    display:flex;
-    position:absolute;
-    bottom:8px;
-    right: 5px;
-}
-
 .menu-mobile{
     background-color:#0000008c;
     position:absolute;
@@ -199,7 +115,6 @@ header .navegacao-primaria li a:hover::after{
 
 .head-mobile .btn-menu{
     visibility: hidden;
-    /*display: none;*/
 }
 
 /*Tema Claro Escuro*/
@@ -233,10 +148,7 @@ header .navegacao-primaria li a:hover::after{
     background-color: #fff;
     border-radius: 50%;
     position: absolute;
-    /*top:2px;*/
     left:2px;
-    /*height: 13px;*/
-    /*width:13px;*/
     height: 10px;
     width:10px;
     transform: translateX(0px);
@@ -248,14 +160,12 @@ header .navegacao-primaria li a:hover::after{
 }
 
 .fa-moon{
-    /*margin-left: 5px;*/
     margin-left: 2.6px;
     color:#f1c40f;
     font-size: 6pt;
 }
 
 .fa-sun{
-    /*margin-right: 5px;*/
     margin-right: 2.6px;
     color:#f39c12;
     font-size: 6pt;
@@ -276,11 +186,7 @@ header .navegacao-primaria li a:hover::after{
     
     .titulo-mobile{
         display: block;
-    }
-
-    .cadastro{
-        display: none;
-    }    
+    }   
 
     /*Btn Mobile*/
     header nav{
@@ -418,7 +324,6 @@ header .navegacao-primaria li a:hover::after{
         color:#f39c12;
         font-size: 10px;
     }
-
 }
 
 @media(min-width:321px) and (max-width:429px){
@@ -436,10 +341,6 @@ header .navegacao-primaria li a:hover::after{
     .titulo-mobile{
         display: block;
     }
-
-    .cadastro{
-        display: none;
-    }    
 
     /*Btn Mobile*/
     header nav{
@@ -647,10 +548,6 @@ header .navegacao-primaria li a:hover::after{
         display: block;
     }
 
-    .cadastro{
-        display: none;
-    }    
-
     /*Btn Mobile*/
     header nav{
         display: none;
@@ -690,7 +587,6 @@ header .navegacao-primaria li a:hover::after{
         position: absolute;
         top: 2vh;
         left: 5vw;
-        
     }
 
     .linha{
@@ -811,11 +707,7 @@ header .navegacao-primaria li a:hover::after{
     
     .titulo-mobile{
         display: block;
-    }
-
-    .cadastro{
-        display: none;
-    }    
+    } 
 
     /*Btn Mobile*/
     header nav{

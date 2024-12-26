@@ -14,7 +14,6 @@ document.addEventListener("onRouterFinished-Home", () => {
     const titulo = document.querySelector('.digitando');
     ativarLetra(titulo);
     
-    
   });
 
   
