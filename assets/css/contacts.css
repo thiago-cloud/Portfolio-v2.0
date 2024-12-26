@@ -14,7 +14,7 @@
 }
 
 .contact h2{
-    font-size: 35pt;
+    font-size: 25pt;
     color:#707070;
     margin-bottom:10px;
     text-align: center;
@@ -108,11 +108,11 @@ form button:hover {
 
 @media(min-width: 374px) and (max-width: 428px){
     .contact{
+        top:15vh;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-bottom: 8vh;
-        margin-left:20px;
+        margin-left:15px;
         margin-bottom:15vh;
     }
 
@@ -132,7 +132,7 @@ form button:hover {
         justify-content: center;
         align-items: center;
         position:relative;
-        top:20vh;
+        top:15vh;
         margin-left:20px;
         margin-bottom:15vh;
     }
@@ -151,7 +151,7 @@ form button:hover {
 @media(min-width:600px) and (max-width:950px){
     .contact{
         position: relative;
-        top: 30vh;
+        top: 15vh;
         margin-bottom: 15vh;
     }
 }

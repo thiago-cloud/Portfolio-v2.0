@@ -242,10 +242,6 @@ main .sobre{
         z-index: -1;
     }
 
-    .section-div div{
-        margin-top: 3vh;
-    }
-
     .section-div p {
         color: #707070;
         font-weight: 400;
@@ -396,10 +392,6 @@ main .sobre{
         padding: 10px;
         position: relative;
         z-index: -1;
-    }
-
-    .section-div div{
-        margin-top: 3vh;
     }
 
     .section-div p {

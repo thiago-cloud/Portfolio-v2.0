@@ -17,7 +17,7 @@
 }
 
 .container-button-1{
-    margin-top: 35px;
+    margin-top: 50px;
     padding-bottom: 10px;
 }
 
@@ -96,7 +96,6 @@
     max-height: 0; /* Altura inicial 0 */
     overflow: hidden; /* Oculta conteúdo excedente */
     transition: max-height 0.5s ease; /* Transição suave para altura */
-    margin-top: 10px;
     background-color: #f9f9f9;
     border: 1px solid #ccc;
     border-radius: 5px;
