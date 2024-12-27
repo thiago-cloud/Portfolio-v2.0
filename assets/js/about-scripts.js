@@ -21,7 +21,7 @@ document.addEventListener("onRouterFinished-About", () => {
             setTimeout(() => {
                 details.classList.add('visible'); // Expande após exibir
                 details.style.maxHeight = "500vh";
-            }, 400); // Delay mínimo para ativar a transição
+            }, 50); // Delay mínimo para ativar a transição
         }
     });
 
