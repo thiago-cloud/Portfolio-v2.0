@@ -17,7 +17,7 @@ function OnInitProject() {
             title: "Cadastro de Produtos",
             description: "Uma aplicação web CRUD desenvolvida em Angular 18 permite realizar o cadastro, leitura, atualização e exclusão de produtos.",
             img: "../../assets/images/projects/cadastroProdutos.png",
-            link: "https://github.com/thiago-cloud/cadastro-de-produtos"
+            link: "https://github.com/thiago-cloud/Cadastro_de_Produtos"
         },
         {
             title: "Form",
@@ -35,7 +35,7 @@ function OnInitProject() {
             title: "ListNest",
             description: "ListNest é uma aplicação mobile PWA desenvolvida em Angular e Spring Boot que permite criar, organizar e gerenciar listas de produtos de supermercado.",
             img: "../../assets/images/projects/listNest.jpeg",
-            link: "https://github.com/thiago-cloud/ListNest"
+            link: "https://github.com/thiago-cloud/ListNest-FrontEnd"
         }
     ];
 
