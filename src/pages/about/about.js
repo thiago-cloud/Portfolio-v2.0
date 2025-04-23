@@ -13,7 +13,7 @@ export default () =>{
                 <h1 class="name">
                     Thiago Alves
                 </h1>
-                <p class="bio">Desenvolvedor Web | Engenheiro de Software | Programador</p>
+                <p class="bio">Engenheiro de Software | Fullstack | Devops</p>
             </div>
             <div class="container-button-1">
                 <a href="../../assets/arquivoCV/Curriculo_TI_Thiago_Alves.pdf" class="toggle-details"  download> 
