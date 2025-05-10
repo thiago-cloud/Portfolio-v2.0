@@ -15,18 +15,42 @@ export default () =>{
                         <h2>Olá! Me Chamo Thiago<br>Bem-vindo ao meu portfólio</h2>
                     </div>
                     <h2 class="digitando">Web Developer FullStack</h2>
-                    <p>
-                        Tenho um perfil diversificado voltados para resolução de problemas e atendimento ao cliente com experiência no setor 
-                        multifuncional N1, analista de BackOffice N2, suporte técnico de TI e desenvolvimento web. No atendimento, aprimorei a 
-                        empatia e a agilidade, o que me garantiu um serviço humanizado eficiente. No BackOffice, me destaquei pela análise e 
-                        verificação de dados cruciais para a produção de ordens de serviço. No suporte de TI, tive a oportunidade de auxiliar na 
-                        manutenção de software e hardware, virtualização de máquinas, gerenciamento de redes e usuários. Como 
-                        estagiário contribui na manutenção e otimização de sites, trabalhando com metodologia ágil como o Scrum e 
-                        tecnologias como Java, Spring Boot, HTML, CSS e JavaScript. Além disso, nos meus momentos de lazer, 
-                        gosto muito de ler e curtir a natureza com meus amigos, o que me permite renovar as energias e trazer novas 
-                        perspectivas para os desafios do dia a dia. 
-                        Atualmente, sou criador da marca AcendCode, que reflete meu compromisso no desenvolvimento de software.
-                    </p>  
+                    <ul>
+                        <li>
+                            <p>
+                                <strong>
+                                    • Sou engenheiro de software com experiência em desenvolvimento web fullstack e aplicações multiplataforma.
+                                </strong>
+                            </p>
+                        </li><br>
+                        <li>
+                            <p>
+                                <strong>
+                                    • Atuo também com infraestrutura de TI, especialmente em suporte técnico, o que amplia minha visão de sistemas de ponta a ponta.
+                                </strong>    
+                            </p>
+                        </li><br>
+                        <li>
+                            <p>
+                                <strong>
+                                    • Tenho foco na resolução de problemas, automação de processos comerciais e criação de soluções para diferentes contextos.
+                                </strong
+                            </p>
+                        </li><br>
+                        <li>
+                            <p>
+                                <strong>
+                                    • Sou curioso e movido pelo aprendizado contínuo, sempre buscando ser a minha melhor versão.
+                                </strong>
+                            </p>
+                        </li><br>
+                        <li>
+                            <p>
+                                <strong>
+                                    • Costumo compartilhar meus projetos e estudos no GitHub.
+                                </strong>
+                            </p>
+                        </li>  
                 </div>
                 <div class="image" alt="Ilustrativa imagem de uma pessoa" title="Ilustrativa imagem de uma pessoa"></div>
             </section>
