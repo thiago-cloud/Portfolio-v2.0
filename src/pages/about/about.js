@@ -40,29 +40,35 @@ export default () =>{
                     </li>
                     <hr>
                     <li>
-                        <h3>Suporte de TI | Neobpo</h3>
+                        <h3>Suporte TI | Neobpo</h3>
                         <p>
-                            Realizei abertura de chamados para resolução de problemas de software e hardware, 
-                            oferecendo manutenção, atualizações e backups. Contribuí no gerenciamento de redes, 
-                            dispositivos de impressão, políticas de firewall e virtualização de máquinas com Hyper-V. Configurei IP, DHCP e DNS, 
-                            além de auxiliar na instalação de servidores Windows Server e Linux. 
-                            Também atuei auxiliando na administração de domínios, incluindo gestão de usuários, grupos e computadores 
-                            por meio do Active Directory (AD/DS), sempre com foco em garantir uma boa infraestrutura.
+                            Atuei no suporte TI seguindo as boas práticas da metodologia ITIL,
+                            realizando monitoramento com Zabbix para maquinas e redes.
+                            Executei configuração e manutenção de proxy e VPN, garantindo
+                            conectividade segura e políticas de acesso. Auxiliei na administração
+                            de servidores Windows Server e Linux, gerenciamento de permissões
+                            de usuáriso com Active Directory (AD/DS), além de dar suporte à
+                            virtualização com Hyper-V. Utilizei o Zendesk para registro e
+                            acompanhamento de chamados, o que facilitava o atendimento a
+                            incidentes de hardware e software, e participei da configuração de
+                            DHCP, DNS e firewall para otimizar a infraestrutura.
+
                         </p>
                     </li>
                     <hr>
                     <li>
                         <h3>Analista de Backoffice N2 | Neobpo</h3>
                         <p>
-                            Minha experiência envolveu receber informações cruciais do
-                            setor técnico COP de várias regiões do Brasil, via
-                            e-mails, chat, e vídeo chamadas ou outros canais. Analisei e verifiquei a
-                            veracidade desses dados no Excel, filtrando e registrando de
-                            forma precisa no sistema Qualinet. Essas informações se
-                            traduziram em ordens de serviço para o suporte técnico
-                            remoto, garantindo a precisão dos registros para o ambiente
-                            de produção. Trabalhei com o produto Claro durante esse
-                            período.
+                            Processei e analisei dados de outages da Central de Operações
+                            (COP), coletados de diversas regiões do Brasil através de múltiplos
+                            canais (e-mails, chats e vídeo chamadas). Utilizei Excel avançado
+                            (XLOOKUP, fórmulas condicionais e Power Query) para transformar
+                            dados brutos em relatórios estruturados. Classifiquei ordens de
+                            serviço no Qualinet, identificando manutenções externas para
+                            cancelar visitas técnicas desnecessárias, reduzindo deslocamentos e
+                            aumentando a eficiência operacional. Dominando o fluxo de dados,
+                            da coleta à geração de insights, com habilidades em Excel, Qualinet e
+                            análise de dados.
                         </p>
                     </li>
                     <hr>
