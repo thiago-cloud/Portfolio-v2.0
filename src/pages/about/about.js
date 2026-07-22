@@ -26,6 +26,18 @@ export default () =>{
             <div class="details-section" id="details">
                 <ul>
                     <li>
+                        <h3>Customer Service | Datamétrica</h3>
+                        <p>
+                          Atendimento ao cliente do Banco do Brasil via chat, utilizando plataforma de CRM. 
+                          Realizei empréstimos com base na disponibilidade de crédito, procedimentos com cartões de crédito e 
+                          débito utilizando diretrizes de segurança do banco, como autenticação por token, além da verificação de legitimidade 
+                          nos dados dos clientes, evitando assim riscos de possíveis fraudes. Realizei também análise de faturas, esclarecimento 
+                          de dúvidas sobre investimentos de renda fixa, como CDB, LCI, LCA e tesouro direto com IPCA+ e renda variável para ações. 
+                          Orientei clientes no uso de caixas eletrônicos e aplicativo BB.
+                        </p>
+                    </li>
+                    <hr>
+                    <li>
                         <h3>Desenvolvedor Web | Effetive Sistemas</h3>
                         <p>
                            Como estagiário fui responsável pela manutenção do site da Michelin e MV Saúde na empresa de consultoria Effetive Sistemas, 
@@ -81,6 +93,17 @@ export default () =>{
                             operando nos sistemas Netsms, Netsales, Avaya e New Datacenter. Acredito que o principal aprendizado nesse setor 
                             que posso levar para a vida toda foi a comunicação mais assertiva, a empatia, e a agilidade, oferecendo mais conforto 
                             ao cliente em um atendimento humanizado e eficiente.
+                        </p>
+                    </li>
+                    <hr>
+                    <li>
+                        <h3>Auxiliar Administrativo | Maqserv</h3>
+                        <p>
+                            Como auxiliar administrativo na Maqserv Usinagem, fui responsável por elaboração de orçamentos para serviços 
+                            em máquinas industriais, como tornos e retíficas. Utilizando ferramentas como Outlook, Excel e Word, mantinha 
+                            comunicação direta com os clientes para entender suas necessidades e garantir propostas claras e precisas. 
+                            Essa experiência aprimorou minhas habilidades em organização, comunicação e no uso de ferramentas de software 
+                            para setor administrativo.
                         </p>
                     </li>
                 </ul>
