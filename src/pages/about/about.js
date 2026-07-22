@@ -28,14 +28,13 @@ export default () =>{
                     <li>
                         <h3>Desenvolvedor Web | Effetive Sistemas</h3>
                         <p>
-                            Como estagiário fui responsável pela manutenção do site da Michelin e MV Saúde, 
-                            utilizei tecnologias como Java, Spring Boot, Angular, JavaScript, CSS e HTML para garantir que 
-                            o site esteja sempre atualizado, funcional e atraente para os usuários. Minhas responsabilidades incluíram realizar 
-                            atualizações de conteúdo, corrigir bugs, otimizar o desempenho do site, desenvolvimento de APIs, 
-                            e implementação de novos recursos conforme as diretrizes da empresa. 
-                            Trabalhando em colaboração com a equipe de desenvolvimento, 
-                            empregando método ágil scrum com auxílio de algumas ferramentas como 
-                            Trello e bitrix24 para organização das tarefas da Sprint.
+                           Como estagiário fui responsável pela manutenção do site da Michelin e MV Saúde na empresa de consultoria Effetive Sistemas, 
+                           utilizei tecnologias como Python, Java com Spring, Angular, JavaScript, CSS, HTML, GIT e Banco de Dados utilizando MySQL, 
+                           Realizando sempre ajustes para que o site esteja sempre atualizado funcional e atraente para os usuários. Minhas responsabilidades
+                           incluiram realizar CRUD, validação de formulários, atualizações de conteúdo, corrigeção de bugs, otimização do desempenho do site, 
+                           desenvolvimento de APIs REST, e implementação de novos recursos de acordo com a solicitação do cliente. 
+                           Trabalhando em colaboração com a equipe de desenvolvimento, empregando métodologia ágil scrum com auxílio de algumas ferramentas como 
+                           trello e bitrix24 para organização das tarefas da sprint.
                         </p>
                     </li>
                     <hr>
@@ -63,10 +62,10 @@ export default () =>{
                             Processei e analisei dados de outages da Central de Operações
                             (COP), coletados de diversas regiões do Brasil através de múltiplos
                             canais (e-mails, chats e vídeo chamadas). Utilizei Excel avançado
-                            (XLOOKUP, fórmulas condicionais e Power Query) para transformar
+                            (PROCX, fórmulas condicionais e Power Query) para transformar
                             dados brutos em relatórios estruturados. Classifiquei ordens de
                             serviço no Qualinet, identificando manutenções externas para
-                            cancelar visitas técnicas desnecessárias, reduzindo deslocamentos e
+                            cancelar visitas técnicas desnecessárias, reduzindo custos de deslocamentos e
                             aumentando a eficiência operacional. Dominando o fluxo de dados,
                             da coleta à geração de insights, com habilidades em Excel, Qualinet e
                             análise de dados.
@@ -76,10 +75,12 @@ export default () =>{
                     <li>
                         <h3>Atendimento Multifuncional N1 | Neobpo</h3>
                         <p>
-                            Atuei no atendimento ao cliente, oferecendo suporte humanizado para proporcionar 
-                            um atendimento mais acolhedor e eficiente. Minhas funções incluíam agendamentos, 
-                            alterações cadastrais e fornecimento de informações via ligações e chat, 
-                            utilizando o sistema netsms, new datecenter, net sales, avaya e solar.
+                            No setor multifuncional N1, atuei no atendimento ao cliente ativo e receptivo para a claro. 
+                            Nessa função realizava procedimentos de agendamento e reagendamento de visita técnica, mudança de endereço, 
+                            procedimentos técnicos básicos quando necessário, solucionava dúvidas de clientes e vendas quando necessário 
+                            operando nos sistemas Netsms, Netsales, Avaya e New Datacenter. Acredito que o principal aprendizado nesse setor 
+                            que posso levar para a vida toda foi a comunicação mais assertiva, a empatia, e a agilidade, oferecendo mais conforto 
+                            ao cliente em um atendimento humanizado e eficiente.
                         </p>
                     </li>
                 </ul>
