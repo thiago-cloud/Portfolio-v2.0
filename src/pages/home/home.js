@@ -40,7 +40,7 @@ export default () =>{
                         <li>
                             <p>
                                 <strong>
-                                    • Sou estudante eterno movido pelo aprendizado contínuo, sempre buscando ser a minha melhor versão.
+                                    • Sou eterno estudante movido pelo aprendizado contínuo, sempre buscando ser a minha melhor versão.
                                 </strong>
                             </p>
                         </li><br>
