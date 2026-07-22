@@ -42,16 +42,17 @@ export default () =>{
                     <li>
                         <h3>Suporte TI | Neobpo</h3>
                         <p>
-                            Atuei no suporte TI seguindo as boas práticas da metodologia ITIL,
-                            realizando monitoramento com Zabbix para maquinas e redes.
+                           Atuei no suporte de TI seguindo as boas práticas e melhores práticas do ITIL.
+                            Auxiliando no monitoramento com Zabbix para as máquinas na rede.
                             Executei configuração e manutenção de proxy e VPN, garantindo
-                            conectividade segura e políticas de acesso. Auxiliei na administração
-                            de servidores Windows Server e Linux, gerenciamento de permissões
-                            de usuáriso com Active Directory (AD/DS), além de dar suporte à
+                            Conectividade segura e políticas de acesso. Auxiliei na administração
+                            De servidores, realizando também load balance em alguns cenários, utilizei sistemas Windows Server Linux, auxiliei no gerenciamento de permissões
+                            de usuários com Active Directory (AD/DS), além de dar suporte à
                             virtualização com Hyper-V. Utilizei o Zendesk para registro e
                             acompanhamento de chamados, o que facilitava o atendimento a
-                            incidentes de hardware e software, e participei da configuração de
-                            DHCP, DNS e firewall para otimizar a infraestrutura.
+                            incidentes de hardware e software, realizei instalações de cabos 
+                            e configurações DHCP, DNS, IP  na rede, em equipamentos de switch, roteadores e access point. 
+                            Também auxiliei nas políticas de segurança com firewall para otimização da infraestrutura.
 
                         </p>
                     </li>
