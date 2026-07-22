@@ -14,19 +14,19 @@ export default () =>{
                     <div>
                         <h2>Olá! Me Chamo Thiago<br>Bem-vindo ao meu portfólio</h2>
                     </div>
-                    <h2 class="digitando">Web Developer FullStack</h2>
+                    <h2 class="digitando">Analista de TI</h2>
                     <ul>
                         <li>
                             <p>
                                 <strong>
-                                    • Sou engenheiro de software com experiência em desenvolvimento web fullstack e aplicações multiplataforma.
+                                    • Sou Analista de TI possuo conhecimento em analise de dados e infraestrutara de TI.
                                 </strong>
                             </p>
                         </li><br>
                         <li>
                             <p>
                                 <strong>
-                                    • Atuo também com infraestrutura de TI, especialmente em suporte técnico, o que amplia minha visão de sistemas de ponta a ponta.
+                                    • Atuei com infraestrutura de TI, especialmente em suporte técnico, e analise de dados o que me garante uma visão mais sistemática.
                                 </strong>    
                             </p>
                         </li><br>
@@ -40,7 +40,7 @@ export default () =>{
                         <li>
                             <p>
                                 <strong>
-                                    • Sou curioso e movido pelo aprendizado contínuo, sempre buscando ser a minha melhor versão.
+                                    • Sou estudante eterno movido pelo aprendizado contínuo, sempre buscando ser a minha melhor versão.
                                 </strong>
                             </p>
                         </li><br>
