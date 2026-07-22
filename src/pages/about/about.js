@@ -16,7 +16,7 @@ export default () =>{
                 <p class="bio">Analista de TI</p>
             </div>
             <div class="container-button-1">
-                <a href="../../assets/arquivoCV/Curriculo_TI_Thiago_Alves.pdf" class="toggle-details"  download> 
+                <a href="../../assets/arquivoCV/Currículo_Analista_TI.pdf" class="toggle-details"  download> 
                     Download CV 
                 </a>
             </div>
